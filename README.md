@@ -1,7 +1,7 @@
 # react-navbar
 We used bootstrap4 for this navbar (version 4.5.2)
 
-Create a file in the components folder and name it
+Create a file in the `components` folder and name it
 
 `navbar.component.js`
 
