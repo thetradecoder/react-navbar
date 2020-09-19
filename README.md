@@ -5,7 +5,7 @@ Create a file in the `components` folder and name it
 
 `navbar.component.js`
 
-Then use the following code in the `navbar.component.js` file. 
+Then use the following code in the `navbar.component.js` file and make necessary modification like brand-name, link-names, path 
 
 ```
 import React from 'react';
