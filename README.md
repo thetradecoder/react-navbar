@@ -38,3 +38,27 @@ export default function Navbar(){
 ```
 
 Then import the Navbar component in the relevant file.
+
+Sample import of Navbar component to `App.js` file
+
+```
+import React from 'react';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import Counter from './components/counter.component';
+import Navbar from './components/navbar.component.js';
+// import AotherComonent from './components/another-component.component.js';
+// import ThreeComponent from './components/three-component.comonent.js';
+
+function App() { 
+  return (    
+    <Router>
+      <Navbar />
+   //   <Route path="/" exact component = {AnotherComponent} />
+   //   <Route path="/link-three" exact component = {ThreeComponent} />
+    </Router>
+  );
+}
+
+export default App;
+
+```
