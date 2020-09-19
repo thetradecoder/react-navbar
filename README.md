@@ -5,7 +5,8 @@ Create a file in the `components` folder and name it
 
 `navbar.component.js`
 
-Then import the component in the relevant file
+Then use the following code in the `navbar.component.js` file. 
+
 ```
 import React from 'react';
 import {Link} from "react-router-dom";
@@ -35,3 +36,5 @@ export default function Navbar(){
     );
 }
 ```
+
+Then import the Navbar component in the relevant file.
