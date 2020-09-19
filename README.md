@@ -54,7 +54,7 @@ function App() {
     <Router>
       <Navbar />
    //   <Route path="/" exact component = {AnotherComponent} />
-   //   <Route path="/link-three" exact component = {ThreeComponent} />
+   //   <Route path="/link-three" component = {ThreeComponent} />
     </Router>
   );
 }
