@@ -7,7 +7,7 @@ Create a file in the `components` folder and name it
 
 Then use the following code in the `navbar.component.js` file and make necessary modification like brand-name, link-names, path 
 
-```
+```javascript
 import React from 'react';
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,7 +41,7 @@ Then import the Navbar component in the relevant file.
 
 Sample import of Navbar component to `App.js` file
 
-```
+```javascript
 import React from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import Counter from './components/counter.component';
